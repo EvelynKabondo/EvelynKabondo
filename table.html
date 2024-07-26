@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <title>Document</title>
+    <style>
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+container{
+  border:2px solid grey;
+}
+    </style>
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="container">
+      <div class="sidebar">
+        <a href="dashboard.html"><i class="fa fa-home"></i> Dashboard</a>
+        <a href="form.html"><i class="fa fa-shopping-cart"></i> Forms</a>
+        <a href="table.html"><i class="fa fa-shopping-bag"></i> Tables</a>
+        <a href="elements.html"><i class="fa fa-cog"></i> Elements</a>
+      </div>
+      <div class="content">
+        <div class="left">
+          <h1>Products Records</h1>
+        </div>
+        <div class="right"></div>
+      </div>
+    </div>
+
+
+<h2>Details of available products</h2>
+<div>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>name</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td>Apple</td>
+    <td>$0.50</td>
+    <td>100</td>
+    <td>Fresh red apples</td>
+   
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Bananas</td>
+    <td>$0.30</td>
+    <td>150</td>
+    <td>Ripe yellow Bananas</td>
+    
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Orange</td>
+    <td>$0.70</td>
+    <td>200</td>
+    <td>sweet and juicy oranges</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Strawberry</td>
+    <td>$1.20</td>
+    <td>50</td>
+    <td>Fresh organic strawberries</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Grapes</td>
+    <td>$2.00</td>
+    <td>75</td>
+    <td>seedless green grapes</td>
+  </tr>
+</table>
+</div>
+
+  </body>
+</html>
